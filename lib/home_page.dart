@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
 
 // initial position of map to load first
   static const CameraPosition initialLocation = CameraPosition(
-    target: LatLng(37.42796133580664, -122.085749655962),
+    target: LatLng(19.076090, 72.877426),
     zoom: 14.4746,
   );
 

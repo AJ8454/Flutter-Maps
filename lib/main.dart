@@ -12,15 +12,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Maps',
-      //themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.dark,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        //  primaryColor: Colors.orange,
-        //   scaffoldBackgroundColor: Colors.blueGrey.shade900,
-        //   appBarTheme: const AppBarTheme(
-        //     backgroundColor: Colors.transparent,
-        //     elevation: 0,
-        //),
+        //primarySwatch: Colors.blue,
+        primaryColor: Colors.orange,
+        scaffoldBackgroundColor: Colors.blueGrey.shade900,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+        ),
       ),
       home: const HomePage(),
     );
